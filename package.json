@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tapplint",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "MatchingAgent's ESLint config.",
   "license": "MIT",
   "repository": "MatchingAgent/eslint-config-tapplint",
