@@ -10,12 +10,12 @@ module.exports = {
     './rules/stylistic-issues.js',
     './rules/react/index.js'
   ],
-  envs: [
-    'es6',
-    'node',
-    'commonjs',
-    'browser'
-  ],
+  env: {
+    es6: true,
+    node: true,
+    commonjs: true,
+    browser: true
+  },
   parser: 'babel-eslint',
   plugins: [
     'import',
