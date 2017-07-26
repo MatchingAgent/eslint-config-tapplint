@@ -1,9 +1,12 @@
 {
   "name": "eslint-config-tapplint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MatchingAgent's ESLint config.",
   "license": "MIT",
-  "repository": "MatchingAgent/eslint-config-tapplint",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MatchingAgent/eslint-config-tapplint"
+  },
   "author": {
     "name": "Lohn IMAI",
     "email": "mail@lohn.me",
@@ -13,10 +16,6 @@
   "scripts": {
     "prelint": "editorconfig-tools check * rules/*",
     "lint": "eslint ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MatchingAgent/eslint-config-tapplint"
   },
   "bugs": {
     "url": "https://github.com/MatchingAgent/eslint-config-tapplint/issues"
