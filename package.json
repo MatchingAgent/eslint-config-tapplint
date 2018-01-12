@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/MatchingAgent/eslint-config-tapplint",
   "dependencies": {
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-react": "~7.1.0"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
