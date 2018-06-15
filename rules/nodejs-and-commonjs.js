@@ -9,6 +9,6 @@ module.exports = {
     'no-mixed-requires': 'error',
 
     // disallow new operators with calls to require
-    'no-new-require': 'error'
-  }
+    'no-new-require': 'error',
+  },
 };
