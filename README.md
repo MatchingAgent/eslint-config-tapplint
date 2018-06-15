@@ -1,8 +1,8 @@
 # eslint-config-tapplint
 
 [![npm version](https://badge.fury.io/js/eslint-config-tapplint.svg)](http://badge.fury.io/js/eslint-config-tapplint)
-[![Dependency Status](https://david-dm.org/MatchingAgent/esling-config-tapplint.svg)](https://david-dm.org/MatchingAgent/esling-config-tapplint)
-[![devDependency Status](https://david-dm.org/MatchingAgent/esling-config-tapplint/dev-status.svg)](https://david-dm.org/MatchingAgent/esling-config-tapplint?type=dev)
+[![Dependency Status](https://david-dm.org/MatchingAgent/eslint-config-tapplint.svg)](https://david-dm.org/MatchingAgent/eslint-config-tapplint)
+[![devDependency Status](https://david-dm.org/MatchingAgent/eslint-config-tapplint/dev-status.svg)](https://david-dm.org/MatchingAgent/eslint-config-tapplint?type=dev)
 
 ## Install
 
