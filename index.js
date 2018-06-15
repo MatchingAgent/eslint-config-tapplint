@@ -8,24 +8,16 @@ module.exports = {
     './rules/variables.js',
     './rules/nodejs-and-commonjs.js',
     './rules/stylistic-issues.js',
-    './rules/react/index.js'
   ],
   env: {
     es6: true,
     node: true,
     commonjs: true,
-    browser: true
+    browser: true,
   },
-  parser: 'babel-eslint',
-  plugins: [
-    'import',
-    'react'
-  ],
+  plugins: [],
   parserOptions: {
     ecmaVersion: 8,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true
-    }
-  }
+    sourceType: 'script',
+  },
 };

@@ -45,6 +45,6 @@ module.exports = {
     'require-yield': 'error',
 
     // require or disallow spacing around embedded expressions of template strings
-    'template-curly-spacing': 'error'
-  }
+    'template-curly-spacing': 'error',
+  },
 };

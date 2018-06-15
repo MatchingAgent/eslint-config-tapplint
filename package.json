@@ -21,18 +21,14 @@
     "url": "https://github.com/MatchingAgent/eslint-config-tapplint/issues"
   },
   "homepage": "https://github.com/MatchingAgent/eslint-config-tapplint",
-  "dependencies": {
-    "eslint-plugin-import": "~2.2.0",
-    "eslint-plugin-react": "~7.1.0"
+  "engines": {
+    "node": ">= 4"
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^3.19.0"
+    "eslint": "^4.19.1"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0"
-  },
-  "engines": {
-    "node": ">= 4"
+    "eslint": "^4.19.1"
   }
 }

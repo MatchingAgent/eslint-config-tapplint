@@ -29,7 +29,7 @@ module.exports = {
     // disallow unnecessary parentheses
     'no-extra-parens': ['error', 'all', {
       nestedBinaryExpressions: false,
-      ignoreJSX: 'multi-line'
+      ignoreJSX: 'multi-line',
     }],
 
     // disallow unnecessary semicolons
@@ -57,6 +57,6 @@ module.exports = {
     'use-isnan': 'error',
 
     // enforce comparing typeof expressions against valid strings
-    'valid-typeof': 'error'
-  }
+    'valid-typeof': 'error',
+  },
 };

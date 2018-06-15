@@ -17,7 +17,7 @@ module.exports = {
     // enforce consistent spacing before and after commas
     'comma-spacing': ['error', {
       before: false,
-      after: true
+      after: true,
     }],
 
     // enforce consistent comma style
@@ -35,13 +35,13 @@ module.exports = {
     // enforce consistent spacing between keys and values in object literal properties
     'key-spacing': ['error', {
       beforeColon: false,
-      afterColon: true
+      afterColon: true,
     }],
 
     // enforce consistent spacing before and after keywords
     'keyword-spacing': ['error', {
       before: true,
-      after: true
+      after: true,
     }],
 
     // enforce consistent linebreak style
@@ -85,13 +85,13 @@ module.exports = {
 
     // enforce the consistent use of either backticks, double, or single quotes
     quotes: ['error', 'single', {
-      allowTemplateLiterals: true
+      allowTemplateLiterals: true,
     }],
 
     // enforce consistent spacing before and after semicolons
     'semi-spacing': ['error', {
       before: false,
-      after: true
+      after: true,
     }],
 
     // require or disallow semicolons instead of ASI
@@ -114,5 +114,5 @@ module.exports = {
 
     // enforce consistency of spacing after the start of a comment
     'spaced-comment': ['error', 'always'],
-  }
+  },
 };
