@@ -51,6 +51,6 @@ module.exports = {
     'no-void': 'error',
 
     // disallow with statements
-    'no-with': 'error'
-  }
+    'no-with': 'error',
+  },
 };
