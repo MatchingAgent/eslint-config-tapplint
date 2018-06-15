@@ -102,5 +102,17 @@ module.exports = {
 
     // enforce consistent spacing inside parentheses
     'space-in-parens': 'error',
+
+    // requires empty lines before block comments
+    'lines-around-comment': ['error', {
+      beforeBlockComment: true,
+      allowBlockStart: true,
+      allowClassStart: true,
+      allowObjectStart: true,
+      allowArrayStart: true,
+    }],
+
+    // enforce consistency of spacing after the start of a comment
+    'spaced-comment': ['error', 'always'],
   },
 };
