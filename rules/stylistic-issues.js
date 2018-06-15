@@ -113,6 +113,10 @@ module.exports = {
     }],
 
     // enforce consistency of spacing after the start of a comment
-    'spaced-comment': ['error', 'always'],
+    'spaced-comment': ['error', 'always', {
+      block: {
+        balanced: true,
+      },
+    }],
   },
 };
