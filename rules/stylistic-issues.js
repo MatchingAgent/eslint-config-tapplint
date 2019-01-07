@@ -118,5 +118,23 @@ module.exports = {
         balanced: true,
       },
     }],
+
+    'max-len': ['error', {
+      code: 150,
+      ignoreUrls: true
+    }],
+
+    'max-lines': ['warn', {
+      max: 3000,
+      skipBlankLines: true,
+      skipComments: true,
+    }],
+
+    'max-lines-per-function': ['warn', {
+      max: 300,
+      skipBlankLines: true,
+      skipComments: true,
+    }],
+
   },
 };

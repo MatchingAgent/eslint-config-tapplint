@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tapplint",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "MatchingAgent's ESLint config.",
   "license": "MIT",
   "repository": {
@@ -26,9 +26,9 @@
   },
   "devDependencies": {
     "editorconfig-tools": "^0.1.1",
-    "eslint": "^4.19.1"
+    "eslint": "^5.12.0"
   },
   "peerDependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^5.12.0"
   }
 }
