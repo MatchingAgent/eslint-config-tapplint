@@ -15,10 +15,12 @@ module.exports = {
     'comma-dangle': ['error', 'always-multiline'],
 
     // enforce consistent spacing before and after commas
-    'comma-spacing': ['error', {
-      before: false,
-      after: true,
-    }],
+    'comma-spacing': [
+      'error', {
+        before: false,
+        after: true,
+      },
+    ],
 
     // enforce consistent comma style
     'comma-style': 'error',
@@ -33,16 +35,20 @@ module.exports = {
     indent: ['error', 2, { SwitchCase: 1 }],
 
     // enforce consistent spacing between keys and values in object literal properties
-    'key-spacing': ['error', {
-      beforeColon: false,
-      afterColon: true,
-    }],
+    'key-spacing': [
+      'error', {
+        beforeColon: false,
+        afterColon: true,
+      },
+    ],
 
     // enforce consistent spacing before and after keywords
-    'keyword-spacing': ['error', {
-      before: true,
-      after: true,
-    }],
+    'keyword-spacing': [
+      'error', {
+        before: true,
+        after: true,
+      },
+    ],
 
     // enforce consistent linebreak style
     'linebreak-style': ['error', 'unix'],
@@ -84,15 +90,19 @@ module.exports = {
     'quote-props': ['error', 'as-needed'],
 
     // enforce the consistent use of either backticks, double, or single quotes
-    quotes: ['error', 'single', {
-      allowTemplateLiterals: true,
-    }],
+    quotes: [
+      'error', 'single', {
+        allowTemplateLiterals: true,
+      },
+    ],
 
     // enforce consistent spacing before and after semicolons
-    'semi-spacing': ['error', {
-      before: false,
-      after: true,
-    }],
+    'semi-spacing': [
+      'error', {
+        before: false,
+        after: true,
+      },
+    ],
 
     // require or disallow semicolons instead of ASI
     semi: ['error', 'always'],
@@ -104,37 +114,47 @@ module.exports = {
     'space-in-parens': 'error',
 
     // requires empty lines before block comments
-    'lines-around-comment': ['error', {
-      beforeBlockComment: true,
-      allowBlockStart: true,
-      allowClassStart: true,
-      allowObjectStart: true,
-      allowArrayStart: true,
-    }],
+    'lines-around-comment': [
+      'error', {
+        beforeBlockComment: true,
+        allowBlockStart: true,
+        allowClassStart: true,
+        allowObjectStart: true,
+        allowArrayStart: true,
+      },
+    ],
 
     // enforce consistency of spacing after the start of a comment
-    'spaced-comment': ['error', 'always', {
-      block: {
-        balanced: true,
+    'spaced-comment': [
+      'error', 'always', {
+        block: {
+          balanced: true,
+        },
       },
-    }],
+    ],
 
-    'max-len': ['error', {
-      code: 150,
-      ignoreUrls: true
-    }],
+    'max-len': [
+      'error', {
+        code: 150,
+        ignoreUrls: true,
+      },
+    ],
 
-    'max-lines': ['warn', {
-      max: 3000,
-      skipBlankLines: true,
-      skipComments: true,
-    }],
+    'max-lines': [
+      'warn', {
+        max: 3000,
+        skipBlankLines: true,
+        skipComments: true,
+      },
+    ],
 
-    'max-lines-per-function': ['warn', {
-      max: 300,
-      skipBlankLines: true,
-      skipComments: true,
-    }],
+    'max-lines-per-function': [
+      'warn', {
+        max: 300,
+        skipBlankLines: true,
+        skipComments: true,
+      },
+    ],
 
   },
 };

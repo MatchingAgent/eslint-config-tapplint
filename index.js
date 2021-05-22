@@ -17,7 +17,8 @@ module.exports = {
   },
   plugins: [],
   parserOptions: {
-    ecmaVersion: 8,
+    // ECMAScript 2020 Specification
+    ecmaVersion: 11,
     sourceType: 'script',
   },
 };
