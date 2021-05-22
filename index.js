@@ -2,12 +2,13 @@
 
 module.exports = {
   extends: [
-    './rules/possible-errors.js',
     './rules/best-practices.js',
-    './rules/strict-mode.js',
-    './rules/variables.js',
+    './rules/ecmascript6.js',
     './rules/nodejs-and-commonjs.js',
+    './rules/possible-errors.js',
+    './rules/strict-mode.js',
     './rules/stylistic-issues.js',
+    './rules/variables.js',
   ],
   env: {
     es6: true,
@@ -18,7 +19,7 @@ module.exports = {
   plugins: [],
   parserOptions: {
     // ECMAScript 2020 Specification
-    ecmaVersion: 11,
+    ecmaVersion: 2020,
     sourceType: 'script',
   },
 };
