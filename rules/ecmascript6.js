@@ -46,5 +46,8 @@ module.exports = {
 
     // require or disallow spacing around embedded expressions of template strings
     'template-curly-spacing': 'error',
+
+    // disallow use of optional chaining in contexts where the undefined value is not allowed
+    'no-unsafe-optional-chaining': 'error',
   },
 };

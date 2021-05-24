@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-tapplint",
-  "version": "5.0.0",
-  "description": "MatchingAgent's ESLint config.",
+  "version": "6.0.0",
+  "description": "tapple's ESLint config.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,6 @@
   },
   "main": "index.js",
   "scripts": {
-    "prelint": "editorconfig-tools check * rules/*",
     "lint": "eslint ."
   },
   "bugs": {
@@ -22,13 +21,12 @@
   },
   "homepage": "https://github.com/MatchingAgent/eslint-config-tapplint",
   "engines": {
-    "node": ">= 4"
+    "node": ">= 14"
   },
   "devDependencies": {
-    "editorconfig-tools": "^0.1.1",
-    "eslint": "^5.12.0"
+    "eslint": "^7.27.0"
   },
   "peerDependencies": {
-    "eslint": "^5.12.0"
+    "eslint": "^7.27.0"
   }
 }
